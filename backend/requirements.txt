@@ -1,0 +1,26 @@
+# Web framework
+fastapi==0.115.*
+uvicorn[standard]==0.34.*
+
+# Database
+sqlalchemy[asyncio]==2.0.*
+aiosqlite==0.21.*
+
+# SSE support
+sse-starlette==2.2.*
+
+# LLM / Agent
+langchain==0.3.*
+langchain-openai==0.3.*
+langchain-core==0.3.*
+
+# Git operations
+gitpython==3.1.*
+
+# Pydantic / Config
+pydantic==2.*
+pydantic-settings==2.*
+
+# Utilities
+aiofiles==24.*
+python-multipart==0.0.*

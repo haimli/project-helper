@@ -1,0 +1,95 @@
+.markdown-body {
+  color: var(--text-primary);
+  line-height: 1.75;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+    font-weight: 600;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.3em;
+  }
+
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  ul, ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+  }
+
+  li {
+    margin-bottom: 0.25em;
+  }
+
+  code {
+    font-family: var(--font-mono);
+    background: var(--bg-code);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: var(--accent-primary);
+  }
+
+  .code-block {
+    margin: 1em 0;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+
+    code {
+      display: block;
+      padding: 1em;
+      overflow-x: auto;
+      background: var(--bg-code);
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+  }
+
+  blockquote {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-left: 3px solid var(--accent-primary);
+    background: var(--bg-card);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    color: var(--text-secondary);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+
+    th, td {
+      border: 1px solid var(--border-color);
+      padding: 0.5em 1em;
+      text-align: left;
+    }
+
+    th {
+      background: var(--bg-card);
+      font-weight: 600;
+    }
+
+    tr:hover td {
+      background: var(--bg-card-hover);
+    }
+  }
+
+  strong {
+    color: var(--accent-primary);
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 2em 0;
+  }
+}
